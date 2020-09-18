@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.box-logo img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.nav-bar {
+    height: 100px;
+    background-color: #59C000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin-bottom: 30px;
+}
+
+.nav-logo img {
+    width: 150px;
+    background-color: white;
+    border: 3px solid #59C000;
+    margin-top: 20px;
+    padding: 30px 15px 30px 15px;
+}
+.btn {
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-box {
+    width: 500px;
+    border: 1px solid black;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label span {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    border: 1px solid #59C000;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.input-button button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #59C000;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.field-error {
+    display: block;
+    text-align: right;
+    color: orangered;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.login-error {
+    color: orangered;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reg-success {
+    text-align: center;
+}
+.reg-success a {
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #59C000;
+    font-size: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-download {
+    color: white;
+    background-color: #59C000;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
